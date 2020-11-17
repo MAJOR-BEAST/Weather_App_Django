@@ -29,7 +29,7 @@ The following is a basic workflow that you can use as a quick reference for deve
 ### Templates and Static Files
 1. Create a templates and static directory within your project root.
 2. Update settings.py to include the paths to your templates.
-3.Add a template (HTML file) to the templates directory. Within that file, you can include the static file with -
+3. Add a template (HTML file) to the templates directory. Within that file, you can include the static file with -
 {% load static %}
 and
  {% static "filename" %} 
