@@ -31,8 +31,6 @@ The following is a basic workflow that you can use as a quick reference for deve
 2. Update settings.py to include the paths to your templates.
 3. Add a template (HTML file) to the templates directory. Within that file, you can include the static file with -
 
-and
- {% static "filename" %} 
 . Also, you may need to pass in data requested by the user.
 4. Update the views.py file as necessary.
 
